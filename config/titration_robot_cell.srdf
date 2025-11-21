@@ -41,6 +41,7 @@
     <disable_collisions link1="beaker_analyte" link2="beaker_titrant" reason="Never"/>
     <disable_collisions link1="beaker_analyte" link2="ph_meter" reason="Never"/>
     <disable_collisions link1="beaker_analyte" link2="ph_probe" reason="Adjacent"/>
+    <disable_collisions link1="beaker_analyte" link2="retort_stand" reason="Never"/>
     <disable_collisions link1="beaker_analyte" link2="stirrer" reason="Never"/>
     <disable_collisions link1="beaker_analyte" link2="table" reason="Adjacent"/>
     <disable_collisions link1="beaker_analyte" link2="ur5_base_link_inertia" reason="Never"/>
@@ -49,25 +50,33 @@
     <disable_collisions link1="beaker_analyte" link2="wall" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="ph_meter" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="ph_probe" reason="Never"/>
+    <disable_collisions link1="beaker_titrant" link2="retort_stand" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="stirrer" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="table" reason="Adjacent"/>
     <disable_collisions link1="beaker_titrant" link2="ur5_base_link_inertia" reason="Never"/>
-    <disable_collisions link1="beaker_titrant" link2="ur5_pipette_tip" reason="Never"/>
+
     <disable_collisions link1="beaker_titrant" link2="ur5_shoulder_link" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="ur5_upper_arm_link" reason="Never"/>
     <disable_collisions link1="beaker_titrant" link2="wall" reason="Never"/>
     <disable_collisions link1="ph_meter" link2="ph_probe" reason="Never"/>
+    <disable_collisions link1="ph_meter" link2="retort_stand" reason="Never"/>
     <disable_collisions link1="ph_meter" link2="stirrer" reason="Never"/>
     <disable_collisions link1="ph_meter" link2="table" reason="Adjacent"/>
     <disable_collisions link1="ph_meter" link2="ur5_base_link_inertia" reason="Never"/>
     <disable_collisions link1="ph_meter" link2="ur5_shoulder_link" reason="Never"/>
     <disable_collisions link1="ph_meter" link2="wall" reason="Never"/>
+    <disable_collisions link1="ph_probe" link2="retort_stand" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="stirrer" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="table" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="ur5_base_link_inertia" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="ur5_shoulder_link" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="ur5_upper_arm_link" reason="Never"/>
     <disable_collisions link1="ph_probe" link2="wall" reason="Never"/>
+    <disable_collisions link1="retort_stand" link2="stirrer" reason="Never"/>
+    <disable_collisions link1="retort_stand" link2="table" reason="Adjacent"/>
+    <disable_collisions link1="retort_stand" link2="ur5_base_link_inertia" reason="Never"/>
+    <disable_collisions link1="retort_stand" link2="ur5_shoulder_link" reason="Never"/>
+    <disable_collisions link1="retort_stand" link2="wall" reason="Never"/>
     <disable_collisions link1="stirrer" link2="table" reason="Adjacent"/>
     <disable_collisions link1="stirrer" link2="ur5_base_link_inertia" reason="Never"/>
     <disable_collisions link1="stirrer" link2="ur5_shoulder_link" reason="Never"/>
